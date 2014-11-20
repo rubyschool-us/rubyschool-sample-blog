@@ -1,4 +1,4 @@
-<h1>Contact us</h1>
+<h1><%= t('contacts.contact_us') %></h1>
 
 <%= form_for :contact, url: contacts_path do |f| %>
 	<% if @contact && @contact.errors.any? %>
